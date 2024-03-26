@@ -1,0 +1,88 @@
+.section-contact-one{
+    display: flex;
+   padding: 80px; gap: 60px;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+.left-questions{
+    max-width: 500px;
+}
+.own-form{
+    max-width: 600px;
+}
+.contact-info{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    box-shadow: 0 10px 50px #0e173914;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+
+}
+.email-info{
+    display: flex;
+}
+.left-questions h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.contact-info i{
+    font-size: 50px;
+    color: rgb(240, 21, 67);  
+}
+.paragraph-info h5{
+    font-size: 20px;
+    color: #000929;
+}
+.paragraph-info p{
+    color: #747681;
+    font-size: 15px;
+}
+form{
+    background-image: url(https://reservq.vercel.app/assets/from-e1762aba.png);
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+.form-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.lastname{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lastname input{
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    border: none;
+}
+.textarea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 36px;
+}
+textarea{
+    border-radius: 8px;
+    border: none;
+    border: 1px solid #f4f4f4;
+}
+.section-map{
+    padding: 0 100px 100px;
+}
+iframe{
+    border-radius: 15px;
+    width: 100%;
+}

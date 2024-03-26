@@ -1,0 +1,44 @@
+@media only screen and (max-width:1250px){
+.header1,.header2{
+    display: none;
+}
+.header3{
+    display: block;
+}
+}
+@media only screen and (max-width:800px){
+    .crafting{
+        font-size: 38px;
+    }
+    .right-left{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-top: 30px;
+       margin-right: 0px;
+    }
+    .popular-card{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:550px){
+    .FAQ-img1,.FAQ-img2{
+        flex-wrap: wrap;
+        display: none;
+
+    }
+    .four-img{
+        display: none;
+    }
+    .contact-info{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .right-special-offers{
+        display: none;
+    }
+    .right-page2{
+        bottom: 40px;
+    }
+}

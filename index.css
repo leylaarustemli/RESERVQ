@@ -1,0 +1,1042 @@
+ @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+        
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Plus Jakarta Sans;
+   
+}
+
+.header1{
+    background: linear-gradient(90deg, #f01543 -1.58%, #fe724c 100%);
+    padding: 30px 0px;
+    
+}
+.header1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.right-header{
+    display: flex;
+    gap: 30px;
+}
+
+.header1 i a{
+    color: white;
+}
+
+.header1 a{
+    color: white;
+}
+
+.middle-header{
+    color: #000929;
+}
+.middle-header p a{
+    color: #000929;
+    text-decoration: underline;
+}
+ 
+
+.header2{
+  background-color: #000929;
+  padding: 30px 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 101;
+  
+}
+.header2 a{
+    color: white;
+}
+.header2 .container{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.middle2-header ul{
+    display: flex;
+    gap: 27px;
+    font-size: 17px;
+    color: white;
+}
+.right2-header{
+    display: flex;
+    gap: 30px;
+}
+.buttonred button{
+    background-color: #f01543;
+    color: white;
+
+}
+.header2-icon{
+    color: white;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 27px;
+}
+
+.header2-icon i{
+    padding: 13px;
+  border-radius: 50%;
+  background-color: #122833;
+  transition: 0.5s;
+}
+.header2-icon i:hover{
+    background-color: #f01543;
+}
+.inputicon input{
+border: 1px solid grey;
+background-color: #122833;
+padding: 15px;
+border-radius: 8px;
+gap: 20px;
+}
+.inputicon{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.inputicon i{
+    position: absolute;
+    color: #747681;
+    top: 19px;
+    right: 15px;
+}
+.btn{
+    display: inline block;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    padding: 13px 32px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+}
+.btn-red{
+    background-color: #f01543;
+    border: 1px solid #f01543;
+}
+.btn-t{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btn-red:hover{
+    background-color: white;
+    color: #f01543;
+}
+.btn-t:hover{
+    background-color: #f01543;
+}
+
+
+.section-one{
+   background-image: url(https://reservq.vercel.app/assets/banner-bg-two-751df5dc.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: white;
+   padding: 80px 0 100px;
+
+}
+.section-one .container{
+    display: flex;
+    flex-direction: column;
+}
+.three-button{
+    display: flex;
+    border: 1px solid white;
+    max-width: 550px;
+    border-radius: 9px;
+    gap: 30px;
+    padding: 15px ;
+    justify-content: center;
+    background-color: white;
+    margin-top: 70px;
+    flex-wrap: wrap;
+
+}
+.three{
+    display: inline block;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+.delivery{
+    background-color: #f01543;
+    border: 1px solid #f01543;
+}
+.pickup{
+    color: #f01543;
+    background-color: white;
+    border: 1px solid #f01543;
+}
+.restaurant{
+    color: #f01543;
+    background-color: white;
+    border: 1px solid #f01543;
+}
+.three-button a:hover{
+background-color: #f01543;
+color: white;
+}
+.crafting{
+    font-size: 70px;
+    max-width: 700px;
+}
+.reservation{
+    max-width: 600px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.crafting span{
+    background: linear-gradient(90deg, #f01543 -1.58%, #fe724c 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-two{
+    background-image: url(https://reservq.vercel.app/assets/categories-bg-2c92439a.png);
+padding: 80px 0;
+}
+
+.right-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories{
+    font-size: 45px;
+    color: #000929;
+}
+ 
+.right-left a{
+    border: 1px solid #000929;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    height: 25px;
+    font-size: 18px;
+    color: #000929;
+    border-radius: 10px;
+    border-top-color: red;
+}
+
+
+.eats{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 0;
+    flex-wrap: wrap;
+    
+}
+.burger{
+    border: 1px solid #f4f4f6;
+    background-color: #f4f4f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    justify-content: center;
+    gap: 15px;
+}
+.sandwiches{
+    border: 1px solid #f4f4f6;
+    background-color: #f4f4f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    justify-content: center;
+    gap: 15px;
+}
+.mexcan{
+    border: 1px solid #f4f4f6;
+    background-color: #f4f4f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    width: 250px;
+    justify-content: center;
+    gap: 15px;
+}
+.italian{
+    border: 1px solid #f4f4f6;
+    background-color: #f4f4f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    width: 250px;
+    justify-content: center;
+    gap: 15px;
+}
+.fa-burger{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+.fa-hotdog{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+.fa-drumstick-bite{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+.fa-cookie-bite{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+.burger:hover{
+background-color: #f01543;
+transition: 0.5s;
+}
+.sandwiches:hover{
+    background-color: #f01543;
+transition: 0.5s;
+}
+.mexcan:hover{
+    background-color: #f01543;
+transition: 0.5s;
+}
+.italian:hover{
+    background-color: #f01543;
+transition: 0.5s;
+}
+
+
+
+.section-three{
+    padding: 0 0 80px;
+}
+
+
+.two-images{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.img1{
+    max-width:450px;
+    
+}
+.img2{
+    max-width:550px;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.section-four{
+    background-image: url(https://reservq.vercel.app/assets/traditional-bg-9423c4a0.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.allcategory ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size:18px;
+    border: 1px solid #fde7ec;
+    padding: 20px;
+    border-radius: 13px;
+    flex-wrap: wrap;
+    
+}
+.allcategory{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px;
+}
+
+.section-four h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   max-width: 600px;
+    font-size: 50px;
+    color: #000929;
+    text-align: center;
+}
+.allcategoryy{
+    border: 1px solid red;
+    background-color: #f01543;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+
+
+.chutney-card{
+    background-color: white;
+    border-radius: 14px;
+}
+.card-head-img{
+    border-radius: 14px 14px 0px 0px;
+}
+.chutney-card:hover .card-head-img{
+    transform: scale(1.2);
+transition: 0.3s;
+}
+.card-head{
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px 14px 0px 0px;
+}
+.card-head i{
+position: absolute;
+top: 10px;
+left: 10px;
+color: red;
+border-radius: 50%;
+border: 1px solid white;
+padding: 10px;
+background-color: white;
+}
+.card-head p{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 6px;
+    background-color: #000929cc;
+    border-radius: 8px;
+    
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    border-bottom: 1px solid grey;
+}
+.cart-main-rating{
+    display: flex;
+}
+.card-main i{
+    color: orange;
+}
+.card-main h4{
+    color: #f01543;
+    font-size: 18px;
+}
+.card-footer{
+    padding: 15px 15px;
+}
+.card-footer-include{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+.card-footer h3{
+    color:#000929;
+}
+.card-footer i{
+    color: rgb(254, 114, 76);
+}
+.card-footer p{
+    color: #4d5461;
+}
+.card-button{
+    display: inline-block;
+    background-color: #f4f4f6;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 10px;
+    color: #6c727f;
+    font-size: 17px;
+    border-top: 1px solid #f01543;
+}
+.card-button i{
+    color: #6c727f;
+} 
+.card-button:hover{
+background-color: #f01543;
+transition: 0.5s;
+color: white;
+}
+.card-button:hover i{
+    background-color: #f01543;
+    transition: 0.5s;
+    color: white;
+    }
+
+.three-div{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.six-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.browser{
+    margin: 70px 0px;
+}
+
+.section-five{
+    background-image: url(https://reservq.vercel.app/assets/Process-bg-88e10cae.png);
+}
+
+.left-img1{
+    max-width: 700px;
+}
+.section-five{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.right-h1 h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.right-h1{
+    color: white;
+    width: 600px;
+
+}
+.location{
+    border: 1px solid #0d1634;
+    max-width: 510px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #0d1634;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.craftinggg{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.location i{
+border: 1px solid #0d1634;
+padding: 20px;
+border-radius: 10px;
+background-color: #262e49;
+}
+.location:hover{
+background: linear-gradient(305deg, #f01543 -22.35%, #fe724c 134.49%);
+}
+
+.popular-card{
+    max-width: 630px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 40px #0000000f;
+}
+.section-six{
+    padding: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-six h1{
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+.popular-card-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+}
+.ikon-like{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    background: rgba(0, 9, 41, .8);
+    padding: 6px;
+    border-radius: 5px;
+}
+.ikon-like i{
+color: orange;
+}
+.ikon-like p{
+color: white;
+}
+.popular-card-button{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.popular-card-button a{
+    width: 150px;
+    margin-top: 0 !important;
+}
+.card-footer-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popular-card:hover .popular-card-img-item{
+transform: scale(1.2);
+}
+.popular-card-img-item{
+    transition: 0.5s;
+}
+
+.populer-item3{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.most-populer-items6{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.section-seven{
+    background-color: #000929;
+    padding: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.jonson-info img{
+    width: 100px;
+}
+.jonson{
+    max-width: 400px;
+
+}
+.jonson-comment{
+    padding: 60px 20px 20px;
+    border: 1px solid rgba(255, 255, 255, .08);;
+    border-radius: 15px;
+    color: #e8e6f999;;
+}
+.jonson-icon{
+    color: orange;
+}
+.jonson-info{
+    display: flex;
+    gap: 20px;
+    margin-top: 55px;
+}
+.section-seven h1{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.jonson-about{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.customers{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left-FAQ{
+    max-width: 600px;
+}
+.FAQ-answers{
+    display: flex;
+    max-width: 550px;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background-color: white;
+    box-shadow:  0 1px 40px #0000000a;
+    border-radius: 10px;
+    
+
+}
+.section-eight{
+    padding: 80px;
+    background-image: url(https://reservq.vercel.app/assets/faq-bg-7118ca12.png);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.FAQ-questions{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.right-success-event{
+    max-width: 600px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.FAQ-img1{
+    max-height: 200px;
+    display: flex;
+    gap: 20px;
+   
+}
+.FAQ-img2{
+    max-height: 200px;
+    display: flex;
+    gap: 20px;
+    
+}
+.FAQ-img3{
+    background-image: url(https://reservq.vercel.app/assets/faq-2-f00ad769.png);
+    height: 100%;
+    width: 250px;
+    background-size: color;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+.overlay-blue{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: #000929d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FAQ-img4{
+    background-image: url(https://reservq.vercel.app/assets/faq-3-c2113267.png);
+    height: 100%;
+    width: 350px;
+    background-size: color;
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.overlay-red{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: #f01543d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-nine{
+    background: url(https://reservq.vercel.app/assets/rest-bg-542f355f.png);
+    padding: 40px 0;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-nine .container{
+    display: flex;
+    justify-content: space-around;
+}
+.right-special-offers img{
+    max-width: 650px;
+   margin-top: 40px;
+   margin-right:50px ;
+}
+.left-food-experience h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.left-food-experience p{
+    font-size: 19px;
+}
+.paragraph-hp{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.btn-google-apn{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.btn-googleplay{
+border: 1px solid white;
+padding: 20px;
+max-width: 220px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: 18px;
+background-color: white;
+border-radius: 30px;
+}
+.btn-googleplay img{
+    width: 40px;
+}
+.btn-appstore{
+    border: 1px solid black;
+padding: 20px;
+width: 220px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+border-radius: 30px;
+background-color: black;
+
+}
+.btn-appstore i{
+    font-size: 40px;
+}
+.btn-googleplay a{
+    color: black;
+}
+.btn-appstore a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+   max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+
+
+
+
+footer{
+    background-image: url(https://reservq.vercel.app/assets/Footers-bg-7148736e.png);
+    color: white;
+    font-size: 19px;
+    font-family: Plus Jakarta Sans;
+    
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0px;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.left-footer p{
+    max-width: 350px;
+}
+.middle1-footer a{
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+.middle2-footer a{
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+.middle1-footer{
+    gap: 13px;
+    flex-direction: column;
+    display: flex;
+}
+
+.middle1-footer a:hover{
+color: #f01543;
+transition: 0.3s;
+}
+
+.middle2-footer{
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.middle2-footer a:hover{
+    color: #f01543;
+    transition: 0.3s;   
+}
+
+.left-footer{
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer p{
+    font-size: 20px;
+}
+.left-footer img{
+    width: 130px;;
+}
+.icons-footer{
+    gap: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.linkler{
+    border: 1px solid #19213e;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #19213e;
+    color: #747681;
+}
+.linkler:hover{
+    color: white;
+    background-color: #f01543;
+    transition: 0.8s;
+}
+
+
+.inputbutton{
+    gap: 20px;
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.inputbutton input{
+    border-radius: 8px;
+    background-color: #323a54;
+    
+}
+.inputbutton button{
+    background-color: #f01543;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+   
+}
+.img-footer{
+    gap:14px;
+    display: flex;
+    margin-top: 20px; 
+    flex-wrap: wrap;
+}
+.img-footer img{
+    width: 50px;
+    
+}
+.footer-son{
+   background-color:#000929 ; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   width: 100%;
+   color: #9ea3ae;
+}
+.footer-son a{
+    color: #9ea3ae;
+
+}
+
+
+
+.header3 img{
+    width: 140px;
+}
+.header3 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.header3 i{
+padding: 10px;
+background-color: #f01543;
+color: white;
+border-radius: 5px;
+}
+.header3{
+    display: none;
+}
+
+
+
+
+
+
+

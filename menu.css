@@ -1,0 +1,159 @@
+.section-bir{
+   background: url(https://reservq.vercel.app/assets/inner-bg-99d2ac4c.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding: 140px;
+    margin-top: -105px;
+    padding-top: 160px;
+    
+}
+.section-bir h1{
+font-size: 50px;
+}
+.section-bir p{
+    font-size: 30px;
+}
+.section-iki{
+    background-image: url(https://reservq.vercel.app/assets/all-food-bg-674ecdbb.png);
+    padding: 80px 0;
+}
+
+.section-iki .container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lft-div{
+    display: flex;
+    gap: 30px;
+    border: 1px solid rgb(235, 221, 221);
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    
+}
+.lft-div p{
+    font-size: 15px;
+}
+.lft-rght{
+    display: flex;
+}
+.all-category{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-right: 1px solid darkgray;
+    
+}
+.star-rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.price-range{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.meal-type{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+.input-keyword{
+    position: relative;
+    
+    
+}
+.input-keyword i{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    border: 1px solid #f01543;
+    padding: 6px;
+    background-color: #f01543;
+    border-radius: 8px;
+    color: white;
+}
+.input-keyword input{
+    height: 40px;
+    max-width: 500px;
+    font-size: 20px;
+    background-color: #f9fafb ;
+    border: 1px solid rgb(235, 221, 221);
+    border-radius: 10px;
+}
+.rght-div{
+    display: flex;
+}
+.rght-div i{
+    color: #0d6efd;
+    font-size: 30px;
+}
+
+.section-four-fttr{
+    display: flex;
+    padding: 100px;
+    background-position: center;
+    justify-content: space-evenly;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;}
+    
+
+.medium-left{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.medium-left .fa-arrow-left{
+    border: 1px solid #f01543 ; padding: 15px;
+    border-radius: 10px; color: #f01543;
+}
+.red-medium-right{
+    border: 1px solid #f01543;
+    background-color: #f01543;
+    padding: 15px;
+    border-radius: 13px;
+    color: white;
+    
+}
+.red-medium-right a{
+    color: white;
+}
+.right-page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    position: absolute;
+    right: 100px;
+    
+
+    
+}
+.right-page2 .two{
+    border: 1px solid rgb(235, 221, 221);
+    padding: 13px;
+    border-radius: 10px;
+}

@@ -1,0 +1,79 @@
+.section-about-one{
+    padding: 80px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.experience-award-left{
+    width: 600px;
+    position: relative;
+}
+.experience-award-left img{
+    width: 100%;
+    
+}
+
+.our-story-right{
+    width: 600px;
+    gap: 30px;
+   flex-direction: column;
+   display: flex;
+  justify-content: center;
+}
+.our-story-right h1{
+font-size: 48px;
+color: #000929;
+}
+.our-story-right p{
+    font-size: 17px;
+    color: #4d5461;  
+}
+.branch-customers{
+    display: flex;
+    gap: 30px;
+}
+.branch-customers h2{
+    color: #000929;
+}
+.branch-customers i{
+    border: 1px solid #f01543;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    background-color: #f01543;
+}
+.animation-red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.animation-inner{
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.animation-inner img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    0%{
+       transform: rotate(0deg); 
+    }
+    100%{
+transform: rotate(360deg);
+    }
+}
